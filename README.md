@@ -50,19 +50,18 @@ The location-aware entity encoder architecture:
 - shapely 1.6.4+
 - pyproj 2.2.2+
 
-To set up the code , run `python setup.py`.
+To set up the code , run `python setup.py`. Note that the first three are required for model training and testing. The rest are used for visualization which is optional.
 
-### Data
+## Data
 You can download the GeoQA dataset from [here](https://drive.google.com/file/d/1hbaw16RuSw3HGzhWxFReqWPbLXEs1GAJ/view?usp=sharing). Unextract it and put them in `graphqa/dbgeo/`.
 
 
 
 
-### Code Usage
-This code is implemented in Python 2.7
-All codes are in `graphqa/netquery/`.
+## Code Usage
+This code is implemented in Python 2.7. All codes are in `graphqa/netquery/`.
 
-#### Geographic Question Answering
+### Geographic Question Answering
 For each baseline in Table 3:
 1. `GQE_{diag}`: run `graphqa/dbgeo_geoqa_gqe.sh`;
 2. `GQE`: run `graphqa/dbgeo_geoqa_gqe_diag.sh`;
@@ -73,13 +72,13 @@ For each baseline in Table 3:
 7. `SE-KGE_{full}`: run `graphqa/dbgeo_geoqa_full.sh`.
 
 
-#### Spatial Semantic Lifting
+### Spatial Semantic Lifting
 For each baseline in Table 5:
 1. `SE-KGE_{space}`: run `graphqa/dbgeo_spa_sem_lift_space.sh`;
 2. `SE-KGE_{ssl}`: run `graphqa/dbgeo_spa_sem_lift_ssl.sh`.
 
 
-### Reference
+## Reference
 If you find our work useful in your research please consider citing our paper.  
 ```
 @article{mai2020se,
