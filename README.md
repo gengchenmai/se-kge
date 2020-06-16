@@ -30,7 +30,7 @@ Please visit [my Homepage](http://www.geog.ucsb.edu/~gengchen_mai/) for more inf
 
 The location-aware entity encoder architecture:
 <p align="center">
-  <img src="img/ent_enc.png" alt="ent_enc" width="1000" />
+  <img src="img/ent_enc.png" alt="ent_enc" width="500" />
 </p>
 
 ### Spatial Semantic Lifting
@@ -38,9 +38,6 @@ The location-aware entity encoder architecture:
   <img src="img/spa_sem_lift_new.png" alt="spa_sem_lift" width="1000" />
 </p>
 
-This code contains two parts which are corresponding to two tasks in our paper:
-## Point of Interest (POI) Type Classification Task
-`spacegraph/` folder contains codes for recreating the evaluation results of POI type classification task: both location modeling and context modeling.
 
 
 ## Dependencies
