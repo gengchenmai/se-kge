@@ -5,7 +5,7 @@ from multiprocessing import Process
 from os import path
 
 from netquery.graph import Query
-from netquery.spatialcontext import SpatialContext
+# from netquery.spatialcontext import SpatialContext
 
 def load_queries(data_file, keep_graph=False):
     '''
